@@ -1,0 +1,263 @@
+/* Colors */
+/* #f93f26 - Hexandcube's Orange */
+/* #ef3836 - Hexandcube's Red */
+/* #272727 - Dark */
+/* #7e7e7e - Gray */
+/* #f5f8fa - White */
+/* #26a5f9 - Blue */
+
+body {
+    font-display: swap;
+}
+
+
+h1,
+h2,
+h3,
+.heading,
+.sans-serif,
+.cursor {
+    font-family: Montserrat, sans-serif;
+    color: #26a5f9;
+}
+
+body.darkmode--activated {
+    background-color: #000000 !important;
+}
+
+.darkmode--activated .h4 {
+    mix-blend-mode: difference;
+}
+
+.inline {
+    display: inline !important;
+}
+
+.heading,
+.cursor {
+    font-size: 30px;
+}
+
+code,
+.nav-link,
+.monospace {
+    font-family: "Space Mono", monospace;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    /* height: 40px; */
+    background-color: #f5f8fa;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.darkmode--activated footer {
+    background-color: #080808 !important;
+}
+
+.copyright {
+    margin: 0px !important;
+}
+
+.navbar {
+    /* position: unset !important; */
+    z-index: 1 !important;
+    margin-top: -65px;
+}
+
+.darkmode--activated .col,
+.darkmode--activated .col-md-4,
+.darkmode--activated .col-md-6,
+.darkmode--activated .col-md-8,
+.darkmode--activated .col-md-10,
+.darkmode--activated .col-md-12 {
+    color: #eee;
+}
+
+.darkmode--activated .navbar-light {
+    background-color: #191919 !important;
+}
+
+.hexandcube-text {
+    font-family: Montserrat, sans-serif;
+    color: #26a5f9;
+    display: inline;
+    padding: 2px;
+}
+
+.hexandcube-text:hover {
+    color: #26a5f9;
+    background-color: #26a5f9;
+}
+
+#main {
+    text-align: center;
+    padding: 40px;
+    max-width: 910px;
+    margin: 0 auto;
+}
+
+#main .jumbotron {
+    background-color: #ffffff00;
+}
+
+.jumbotron.home {
+    margin: 0 !important;
+}
+
+.a-dark {
+    color: #212529 !important;#26A5F9
+}
+
+.darkmode--activated .a-dark {
+    color: #eee !important;
+}
+
+.darkmode--activated .form-control {
+    background-color: #272727;
+    border-color: #7e7e7e;
+}
+
+img.avatar {
+    border-radius: 50%;
+    max-width: 120px;
+    margin-bottom: 15px;
+}
+
+.nav-item {
+    color: #000000b3 !important;
+    padding: 1px !important;
+    margin: .8rem !important;
+}
+
+.darkmode--activated .nav-item {
+    color: #eee !important;
+}
+
+@media screen and (min-width: 768px) {
+    .nav-item:hover {
+        color: #eee !important;
+        background-color: #000000 !important;
+    }
+
+    .darkmode--activated .nav-item:hover {
+        color: #000 !important;
+        background-color: #eee !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .nav-item:hover {
+        color: #000000 !important;
+    }
+}
+
+.darkmode-btn .hide-on-mobile {
+    padding-top: .6rem !important;
+}
+
+@media screen and (min-width: 768px) {
+    .hide-on-desktop {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .hide-on-mobile {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer-container {
+        text-align: center !important;
+    }
+}
+
+.social-icons {
+    margin-right: 10px;
+}
+
+.social-icons i {
+    color: #7e7e7e !important;
+    margin-left: 3px;
+}
+
+.social-icons i:hover {
+    color: #272727 !important;
+}
+
+.progress-container {
+    width: 100%;
+    height: 5px;
+    background: transparent;
+    position: sticky;
+    top: 0;
+}
+
+.progress-bar {
+    height: 5px;
+    background: #26a5f9 !important;
+    width: 0%;
+}
+
+
+.header-bg {
+    background-image: url("/assets/img/banner.jpg");
+    background-position: 0 50%;
+    background-size: 100% auto;
+    /* border-radius: 4px 4px 0 0; */
+    height: 300px;
+    width: 100%;
+}
+
+.header-block {
+    display: block !important;
+}
+
+.header-button {
+    margin: -35px -10px 0;
+    text-align: right;
+    width: 100%;
+}
+
+.header-avatarLink {
+    z-index: 2 !important;
+    background-color: transparent;
+    border-radius: 50%;
+    float: left;
+    margin-top: -115px;
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+.header-avatarImg {
+    border: 5px solid #f8f9fa;
+    border-radius: 50%;
+    box-sizing: border-box;
+    color: #f8f9fa;
+    height: 100px;
+    width: 100px;
+}
+
+.darkmode--activated .header-avatarImg {
+    border: 5px solid #191919;
+}
+
+.header-divUser {
+    margin: 5px 0 0;
+}
+
+.header-divName {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+}
+
+.header-divName a {
+    color: inherit !important;
+}

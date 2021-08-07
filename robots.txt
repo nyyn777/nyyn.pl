@@ -1,0 +1,6 @@
+# Hello bots! Please respect the rules below. Thanks!
+
+User-agent: *
+Disallow: /404
+Disallow: /assets
+Disallow: /LICENSE
